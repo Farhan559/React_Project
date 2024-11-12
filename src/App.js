@@ -1,13 +1,14 @@
 import './App.css';
-import FuncComponents from './components/FuncComponents';
-import StateInFuncComp from './components/StateInFuncComp';
+// import FuncComponents from './components/FuncComponents';
+import StateInClassCom from './components/StateInClassCom';
+// import StateInFuncComp from './components/StateInFuncComp';
 
 function App() {
   return (
     <div className="App">
-      <FuncComponents/>
-      <StateInFuncComp />
-      
+      {/* <FuncComponents/> */}
+      {/* <StateInFuncComp /> */}
+      <StateInClassCom />
     </div>
   );
 }
