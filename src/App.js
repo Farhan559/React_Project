@@ -1,7 +1,8 @@
 // import React,{useState} from 'react';
 import './App.css';
-import PropsFunCom from './components/PropsFunCom';
-import GetInputFieldVal from './components/GetInputFieldVal';
+import HideShowToggle from './components/HideShowToggle';
+// import PropsFunCom from './components/PropsFunCom';
+// import GetInputFieldVal from './components/GetInputFieldVal';
 // import FuncComponents from './components/FuncComponents';
 // import StateInClassCom from './components/StateInClassCom';
 // import StateInFuncComp from './components/StateInFuncComp';
@@ -16,7 +17,8 @@ function App() {
       {/* <StateInClassCom /> */}
       {/* <PropsFunCom name={firstName} /> */}
       {/* <button onClick={()=>{setName('Ali')}}>Click ME</button> */}
-      <GetInputFieldVal />
+      {/* <GetInputFieldVal /> */}
+      <HideShowToggle />
     </div>
   );
 }
