@@ -1,6 +1,7 @@
 // import React,{useState} from 'react';
 import './App.css';
-import HideShowToggle from './components/HideShowToggle';
+import FormHandling from './components/FormHandling';
+// import HideShowToggle from './components/HideShowToggle';
 // import PropsFunCom from './components/PropsFunCom';
 // import GetInputFieldVal from './components/GetInputFieldVal';
 // import FuncComponents from './components/FuncComponents';
@@ -18,7 +19,8 @@ function App() {
       {/* <PropsFunCom name={firstName} /> */}
       {/* <button onClick={()=>{setName('Ali')}}>Click ME</button> */}
       {/* <GetInputFieldVal /> */}
-      <HideShowToggle />
+      {/* <HideShowToggle /> */}
+      <FormHandling />
     </div>
   );
 }
