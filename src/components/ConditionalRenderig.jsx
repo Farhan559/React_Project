@@ -7,6 +7,7 @@ function ConditionalRenderig() {
         {
             age > 18 ? <h2>your age is greater than 18</h2> : <h2>your age is less than 18</h2>
         }
+        
     </div>
   )
 }

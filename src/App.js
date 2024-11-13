@@ -1,6 +1,7 @@
 // import React,{useState} from 'react';
 import './App.css';
-import PassFuncAsProps from './components/PassFuncAsProps';
+import FormValidation from './components/FormValidation';
+// import PassFuncAsProps from './components/PassFuncAsProps';
 // import ConditionalRenderig from './components/ConditionalRenderig';
 // import FormHandling from './components/FormHandling';
 // import HideShowToggle from './components/HideShowToggle';
@@ -11,10 +12,10 @@ import PassFuncAsProps from './components/PassFuncAsProps';
 // import StateInFuncComp from './components/StateInFuncComp';
 
 function App() {
-  // const [firstName,setName] = useState('Qaim')
-  function GetData(){
-    alert('Pass props as function in React')
-  }
+  // // const [firstName,setName] = useState('Qaim')
+  // function GetData(){
+  //   alert('Pass props as function in React')
+  // }
   return (
     <div className="App">
       <h1>This is my App.js File</h1>
@@ -27,7 +28,8 @@ function App() {
       {/* <HideShowToggle /> */}
       {/* <FormHandling /> */}
       {/* <ConditionalRenderig /> */}
-      <PassFuncAsProps data={GetData} />
+      {/* <PassFuncAsProps data={GetData} /> */}
+      <FormValidation />
     </div>
   );
 }
