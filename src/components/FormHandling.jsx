@@ -23,7 +23,7 @@ function FormHandling() {
             <br></br>
             <input type="checkbox"onChange={(e)=>setAgree(e.target.checked)}></input>
             <br></br>
-            <button type='submit'onClick={getFormData}>Submit</button>
+            <button type='submit'>Submit</button>
         </form>
     </div>
   )
