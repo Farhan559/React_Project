@@ -1,6 +1,7 @@
 // import React,{useState} from 'react';
 import './App.css';
-import ConditionalRenderig from './components/ConditionalRenderig';
+import PassFuncAsProps from './components/PassFuncAsProps';
+// import ConditionalRenderig from './components/ConditionalRenderig';
 // import FormHandling from './components/FormHandling';
 // import HideShowToggle from './components/HideShowToggle';
 // import PropsFunCom from './components/PropsFunCom';
@@ -11,6 +12,9 @@ import ConditionalRenderig from './components/ConditionalRenderig';
 
 function App() {
   // const [firstName,setName] = useState('Qaim')
+  function GetData(){
+    alert('Pass props as function in React')
+  }
   return (
     <div className="App">
       <h1>This is my App.js File</h1>
@@ -22,7 +26,8 @@ function App() {
       {/* <GetInputFieldVal /> */}
       {/* <HideShowToggle /> */}
       {/* <FormHandling /> */}
-      <ConditionalRenderig />
+      {/* <ConditionalRenderig /> */}
+      <PassFuncAsProps data={GetData} />
     </div>
   );
 }
