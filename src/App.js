@@ -1,6 +1,7 @@
 // import React,{useState} from 'react';
 import './App.css';
-import FormValidation from './components/FormValidation';
+import Contructor from './components/Contructor';
+// import FormValidation from './components/FormValidation';
 // import PassFuncAsProps from './components/PassFuncAsProps';
 // import ConditionalRenderig from './components/ConditionalRenderig';
 // import FormHandling from './components/FormHandling';
@@ -29,7 +30,8 @@ function App() {
       {/* <FormHandling /> */}
       {/* <ConditionalRenderig /> */}
       {/* <PassFuncAsProps data={GetData} /> */}
-      <FormValidation />
+      {/* <FormValidation /> */}
+      <Contructor />
     </div>
   );
 }
