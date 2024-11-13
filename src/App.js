@@ -1,6 +1,7 @@
 // import React,{useState} from 'react';
 import './App.css';
-import FormHandling from './components/FormHandling';
+import ConditionalRenderig from './components/ConditionalRenderig';
+// import FormHandling from './components/FormHandling';
 // import HideShowToggle from './components/HideShowToggle';
 // import PropsFunCom from './components/PropsFunCom';
 // import GetInputFieldVal from './components/GetInputFieldVal';
@@ -20,7 +21,8 @@ function App() {
       {/* <button onClick={()=>{setName('Ali')}}>Click ME</button> */}
       {/* <GetInputFieldVal /> */}
       {/* <HideShowToggle /> */}
-      <FormHandling />
+      {/* <FormHandling /> */}
+      <ConditionalRenderig />
     </div>
   );
 }
