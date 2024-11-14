@@ -1,6 +1,7 @@
 // import React,{useState} from 'react';
 import './App.css';
-import Contructor from './components/Contructor';
+import FormCheck from './FormCheck';
+// import Contructor from './components/Contructor';
 // import FormValidation from './components/FormValidation';
 // import PassFuncAsProps from './components/PassFuncAsProps';
 // import ConditionalRenderig from './components/ConditionalRenderig';
@@ -12,11 +13,13 @@ import Contructor from './components/Contructor';
 // import StateInClassCom from './components/StateInClassCom';
 // import StateInFuncComp from './components/StateInFuncComp';
 
+
 function App() {
   // // const [firstName,setName] = useState('Qaim')
   // function GetData(){
   //   alert('Pass props as function in React')
   // }
+  
   return (
     <div className="App">
       <h1>This is my App.js File</h1>
@@ -31,7 +34,8 @@ function App() {
       {/* <ConditionalRenderig /> */}
       {/* <PassFuncAsProps data={GetData} /> */}
       {/* <FormValidation /> */}
-      <Contructor />
+      {/* <Contructor/> */}
+      <FormCheck />
     </div>
   );
 }
