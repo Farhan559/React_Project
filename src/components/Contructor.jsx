@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class Contructor extends Component {
+ class Contructor extends Component {
     constructor(){
         super();
         this.state={
@@ -14,6 +14,7 @@ export class Contructor extends Component {
       <>
       <h2>Hello Welcome , {this.state.name}</h2>
       <h2>Your age is , {this.state.age}</h2>
+    
       </>
     )
   }
