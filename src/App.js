@@ -1,6 +1,7 @@
 // import React,{useState} from 'react';
 import './App.css';
-import FormCheck from './FormCheck';
+import ComponentDidUpdate from './ComponentDidUpdate';
+// import FormCheck from './FormCheck';
 // import Contructor from './components/Contructor';
 // import FormValidation from './components/FormValidation';
 // import PassFuncAsProps from './components/PassFuncAsProps';
@@ -35,7 +36,8 @@ function App() {
       {/* <PassFuncAsProps data={GetData} /> */}
       {/* <FormValidation /> */}
       {/* <Contructor/> */}
-      <FormCheck />
+      {/* <FormCheck /> */}
+      <ComponentDidUpdate />
     </div>
   );
 }
