@@ -1,5 +1,7 @@
 // import React,{useState} from 'react';
+import { useState } from 'react';
 import './App.css';
+import PropsUseEffect from './PropsUseEffect';
 // import UseEffectHook from './components/UseEffectHook';
 // import ComponentClass from './components/ComponentClass';
 // import ComponentDidUpdate from './ComponentDidUpdate';
@@ -22,6 +24,7 @@ function App() {
   // function GetData(){
   //   alert('Pass props as function in React')
   // }
+  const[count,setCount] = useState(0)
   
   return (
     <div className="App">
@@ -42,6 +45,8 @@ function App() {
       {/* <ComponentDidUpdate /> */}
       {/* <ComponentClass /> */}
       {/* <UseEffectHook /> */}
+      <PropsUseEffect data={count}/>
+      <button onClick={()=>setCount(count+1)}>Click</button>
     </div>
   );
 }
