@@ -1,6 +1,7 @@
 // import React,{useState} from 'react';
 import './App.css';
-import ComponentClass from './components/ComponentClass';
+import UseEffectHook from './components/UseEffectHook';
+// import ComponentClass from './components/ComponentClass';
 // import ComponentDidUpdate from './ComponentDidUpdate';
 // import FormCheck from './FormCheck';
 // import Contructor from './components/Contructor';
@@ -39,7 +40,8 @@ function App() {
       {/* <Contructor/> */}
       {/* <FormCheck /> */}
       {/* <ComponentDidUpdate /> */}
-      <ComponentClass />
+      {/* <ComponentClass /> */}
+      <UseEffectHook />
     </div>
   );
 }
