@@ -1,6 +1,7 @@
 // import React,{useState} from 'react';
 import './App.css';
-import ComponentDidUpdate from './ComponentDidUpdate';
+import ComponentClass from './components/ComponentClass';
+// import ComponentDidUpdate from './ComponentDidUpdate';
 // import FormCheck from './FormCheck';
 // import Contructor from './components/Contructor';
 // import FormValidation from './components/FormValidation';
@@ -37,7 +38,8 @@ function App() {
       {/* <FormValidation /> */}
       {/* <Contructor/> */}
       {/* <FormCheck /> */}
-      <ComponentDidUpdate />
+      {/* <ComponentDidUpdate /> */}
+      <ComponentClass />
     </div>
   );
 }

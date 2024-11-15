@@ -16,7 +16,7 @@ export class ComponentDidUpdate extends Component {
     return (
       <div>
         <h1>Hello,{this.state.name}</h1>
-        <button onClick={()=>{this.setState({name:'Ayub'})}}>Click Me</button>
+        <button onClick={()=>{this.setState({name:'Everyone i am here'})}}>Click Me</button>
 
       </div>
     )
