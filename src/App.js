@@ -1,8 +1,8 @@
 // import React,{useState} from 'react';
 import { useState } from 'react';
 import './App.css';
-import PropsUseEffect from './PropsUseEffect';
-// import UseEffectHook from './components/UseEffectHook';
+// import PropsUseEffect from './PropsUseEffect';
+import UseEffectHook from './components/UseEffectHook';
 // import ComponentClass from './components/ComponentClass';
 // import ComponentDidUpdate from './ComponentDidUpdate';
 // import FormCheck from './FormCheck';
@@ -44,9 +44,9 @@ function App() {
       {/* <FormCheck /> */}
       {/* <ComponentDidUpdate /> */}
       {/* <ComponentClass /> */}
-      {/* <UseEffectHook /> */}
-      <PropsUseEffect data={count}/>
-      <button onClick={()=>setCount(count+1)}>Click</button>
+      <UseEffectHook />
+      {/* <PropsUseEffect data={count}/> */}
+      {/* <button onClick={()=>setCount(count+1)}>Click</button> */}
     </div>
   );
 }

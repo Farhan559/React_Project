@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 
 function PropsUseEffect(props) {
     useEffect(()=>{
-        console.log('UseEffect call')
+        console.log('UseEffect call',props)
     })
   return (
     <>
