@@ -53,7 +53,7 @@ function Calculator() {
                     onChange={handleInput}
                 />
                 <br /><br />
-                <div>Result: {result}</div>
+                <div><h2>Result: {result}</h2></div>
                 <br />
                 <button style={{ fontSize: "40px", marginRight: "20px" }} onClick={() => handleOperation('+')}>+</button>
                 <button style={{ fontSize: "40px", marginRight: "20px" }} onClick={() => handleOperation('-')}>-</button>
