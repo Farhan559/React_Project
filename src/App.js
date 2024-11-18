@@ -1,7 +1,8 @@
 // import React,{useState} from 'react';
 import { useState } from 'react';
 import './App.css';
-import UseMemo from './components/UseMemo';
+import Calculator from './Calculator';
+// import UseMemo from './components/UseMemo';
 // import PropsUseEffect from './PropsUseEffect';
 // import UseEffectHook from './components/UseEffectHook';
 // import ComponentClass from './components/ComponentClass';
@@ -48,7 +49,8 @@ function App() {
       {/* <UseEffectHook /> */}
       {/* <PropsUseEffect data={count}/> */}
       {/* <button onClick={()=>setCount(count+1)}>Click</button> */}
-      <UseMemo />
+      {/* <UseMemo /> */}
+      <Calculator />
     </div>
   );
 }
