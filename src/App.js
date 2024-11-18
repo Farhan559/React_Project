@@ -2,6 +2,9 @@
 import { useState } from 'react';
 import './App.css';
 import Calculator from './Calculator';
+import Home from './components/My routes/Home';
+import { BrowserRouter, Routes,Route,Link} from 'react-router-dom';
+import AboutUs from './components/My routes/AboutUs';
 // import UseMemo from './components/UseMemo';
 // import PropsUseEffect from './PropsUseEffect';
 // import UseEffectHook from './components/UseEffectHook';
@@ -50,7 +53,20 @@ function App() {
       {/* <PropsUseEffect data={count}/> */}
       {/* <button onClick={()=>setCount(count+1)}>Click</button> */}
       {/* <UseMemo /> */}
-      <Calculator />
+      {/* <Calculator /> */}
+      <BrowserRouter>
+      <div style={{fontSize:'20px', display:'flex',gap:'20px', color:'red'}}>
+        
+        <Link to='/home'>Home</Link>
+        <Link to='/About'>AboutUS</Link>
+        <Link to='/calculator'>Calculator</Link>
+      </div>
+      <Routes>
+        <Route path='/home' element={<Home />} />
+        <Route path='/About' element={<AboutUs/>}/>
+        <Route path='/calculator' element={<Calculator />} />
+      </Routes>
+      </BrowserRouter>
     </div>
   );
 }
