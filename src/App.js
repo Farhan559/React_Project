@@ -13,6 +13,7 @@ import Company from './components/Nested Routes/Company';
 import Admin from './components/Nested Routes/Admin';
 import Faculty from './components/Nested Routes/Faculty';
 import Students from './components/Nested Routes/Students';
+import Protected from './components/My routes/Protected';
 // import UseMemo from './components/UseMemo';
 // import PropsUseEffect from './PropsUseEffect';
 // import UseEffectHook from './components/UseEffectHook';
@@ -68,7 +69,8 @@ function App() {
         <Navbar />
       
       <Routes>
-        <Route path='/home' element={<Home />} />
+        {/* <Route path='/home' element={<Home />} /> */}
+        <Route path='/home' element={<Protected Component={Home} />} />
         <Route path='/About' element={<AboutUs/>}/>
         <Route path='/calculator' element={<Calculator />} />
         <Route path='/login'element={<Login />}/>

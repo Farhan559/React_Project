@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../App.css';
 import { useNavigate } from 'react-router-dom';
 
@@ -6,8 +6,15 @@ function Login() {
     const navigate = useNavigate();
 
   const handleLogin = () => {
-    navigate('/home')
+    localStorage.setItem('login',true)
+    navigate('/home');
   }
+  useEffect(()=>{
+    let login = localStorage.getItem('login')
+    if(login){
+      navigate('/home');
+    }
+  })
 
   return (
     <div className='login'>
