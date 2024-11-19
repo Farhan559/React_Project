@@ -7,6 +7,8 @@ import { BrowserRouter, Routes,Route,Link} from 'react-router-dom';
 import AboutUs from './components/My routes/AboutUs';
 import Login from './components/Login';
 import Employee from './components/My routes/Employee';
+import Contact from './components/My routes/Contact';
+import Navbar from './components/My routes/Navbar';
 // import UseMemo from './components/UseMemo';
 // import PropsUseEffect from './PropsUseEffect';
 // import UseEffectHook from './components/UseEffectHook';
@@ -57,19 +59,17 @@ function App() {
       {/* <UseMemo /> */}
       {/* <Calculator /> */}
       <BrowserRouter>
-      <div style={{fontSize:'20px', display:'flex',gap:'20px', color:'red'}}>
+      
         
-        <Link to='/home'>Home</Link>
-        <Link to='/About'>AboutUS</Link>
-        <Link to='/calculator'>Calculator</Link>
-        <Link to='/login'>Login</Link>
-      </div>
+        <Navbar />
+      
       <Routes>
         <Route path='/home' element={<Home />} />
         <Route path='/About' element={<AboutUs/>}/>
         <Route path='/calculator' element={<Calculator />} />
         <Route path='/login'element={<Login />}/>
         <Route path='/employee/:name/:age'element={<Employee />}/>
+        <Route path='/contact' element={<Contact />}></Route>
       </Routes>
       </BrowserRouter>
     </div>

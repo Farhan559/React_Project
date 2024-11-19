@@ -78,3 +78,25 @@
   border: blue solid 2px;
   
 }
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  color: yellowgreen;
+  font-size: larger;
+  text-decoration: none; /* This applies to all nav links */
+  margin-right: 20px;
+}
+
+.nav-link.active {
+  color: red;
+  text-decoration: none; /* Ensure no underline even on active */
+}
+
+.nav .active {
+  text-decoration: none; /* This ensures text-decoration doesn't apply from the active class */
+}
