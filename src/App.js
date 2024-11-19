@@ -9,6 +9,10 @@ import Login from './components/Login';
 import Employee from './components/My routes/Employee';
 import Contact from './components/My routes/Contact';
 import Navbar from './components/My routes/Navbar';
+import Company from './components/Nested Routes/Company';
+import Admin from './components/Nested Routes/Admin';
+import Faculty from './components/Nested Routes/Faculty';
+import Students from './components/Nested Routes/Students';
 // import UseMemo from './components/UseMemo';
 // import PropsUseEffect from './PropsUseEffect';
 // import UseEffectHook from './components/UseEffectHook';
@@ -69,7 +73,13 @@ function App() {
         <Route path='/calculator' element={<Calculator />} />
         <Route path='/login'element={<Login />}/>
         <Route path='/employee/:name/:age'element={<Employee />}/>
-        <Route path='/contact' element={<Contact />}></Route>
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/company/' element={<Company />}>
+        <Route path='admin' element={<Admin />} />
+        <Route path='faculty' element={<Faculty />} />
+        <Route path='students' element={<Students />} />
+
+        </Route>
       </Routes>
       </BrowserRouter>
     </div>
