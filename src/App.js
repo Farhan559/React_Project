@@ -1,19 +1,20 @@
 // import React,{useState} from 'react';
 import { useState } from 'react';
 import './App.css';
-import Calculator from './Calculator';
-import Home from './components/My routes/Home';
-import { BrowserRouter, Routes,Route,Link} from 'react-router-dom';
-import AboutUs from './components/My routes/AboutUs';
-import Login from './components/Login';
-import Employee from './components/My routes/Employee';
-import Contact from './components/My routes/Contact';
-import Navbar from './components/My routes/Navbar';
-import Company from './components/Nested Routes/Company';
-import Admin from './components/Nested Routes/Admin';
-import Faculty from './components/Nested Routes/Faculty';
-import Students from './components/Nested Routes/Students';
-import Protected from './components/My routes/Protected';
+// import Calculator from './Calculator';
+// import Home from './components/My routes/Home';
+// import { BrowserRouter, Routes,Route,Link} from 'react-router-dom';
+// import AboutUs from './components/My routes/AboutUs';
+// import Login from './components/Login';
+// import Employee from './components/My routes/Employee';
+// import Contact from './components/My routes/Contact';
+// import Navbar from './components/My routes/Navbar';
+// import Company from './components/Nested Routes/Company';
+// import Admin from './components/Nested Routes/Admin';
+// import Faculty from './components/Nested Routes/Faculty';
+// import Students from './components/Nested Routes/Students';
+// import Protected from './components/My routes/Protected';
+import ContextApiWithHooks from './components/ContextApiWithHooks';
 // import UseMemo from './components/UseMemo';
 // import PropsUseEffect from './PropsUseEffect';
 // import UseEffectHook from './components/UseEffectHook';
@@ -63,13 +64,13 @@ function App() {
       {/* <button onClick={()=>setCount(count+1)}>Click</button> */}
       {/* <UseMemo /> */}
       {/* <Calculator /> */}
-      <BrowserRouter>
+      {/* <BrowserRouter>
       
         
         <Navbar />
       
       <Routes>
-        {/* <Route path='/home' element={<Home />} /> */}
+        <Route path='/home' element={<Home />} />
         <Route path='/home' element={<Protected Component={Home} />} />
         <Route path='/About' element={<AboutUs/>}/>
         <Route path='/calculator' element={<Calculator />} />
@@ -83,7 +84,8 @@ function App() {
 
         </Route>
       </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
+      <ContextApiWithHooks />
     </div>
   );
 }
