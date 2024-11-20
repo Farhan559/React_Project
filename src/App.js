@@ -1,7 +1,8 @@
 // import React,{useState} from 'react';
 import { useState } from 'react';
 import './App.css';
-import UseContext from './components/API Context/UseContext';
+// import UseContext from './components/API Context/UseContext';
+import ArrayListing from './components/ArrayListing';
 // import One from './components/API Context/One';
 // import Calculator from './Calculator';
 // import Home from './components/My routes/Home';
@@ -89,8 +90,9 @@ function App() {
       </Routes>
       </BrowserRouter> */}
       {/* <ContextApiWithHooks /> */}
-      <UseContext />
+      {/* <UseContext /> */}
       {/* <One /> */}
+      <ArrayListing />
     </div>
   );
 }
