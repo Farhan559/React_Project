@@ -1,4 +1,6 @@
 import React from 'react'
+import Table from 'react-bootstrap/Table';
+// import Button from 'react-bootstrap/Button';
 
 const ArrayListing = () => {
     // const employees = ["farhan","ALi","Ayub","Abdullah"]
@@ -70,8 +72,9 @@ const ArrayListing = () => {
     return (
     <>
         <h1>Array Listing............!</h1>
-        <table border='1' style={{margin:"auto"}}> 
-            <tbody style={{padding:'5px',fontSize:'20px'}}>
+                {/* <Button variant="primary">Open Table</Button> */}
+        <Table striped hover bordered> 
+            <tbody >
                 {
                     employees.map((emp,index)=>{
                         return(
@@ -84,7 +87,7 @@ const ArrayListing = () => {
                     })
                 }
             </tbody>
-        </table>
+        </Table>
     </>
   )
 }
