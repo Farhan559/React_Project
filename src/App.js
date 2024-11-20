@@ -1,7 +1,8 @@
 // import React,{useState} from 'react';
 import { useState } from 'react';
 import './App.css';
-import NestedArrayListing from './components/NestedArrayListing';
+// import NestedArrayListing from './components/NestedArrayListing';
+import ReuseComp from './components/ReuseComp';
 // import UseContext from './components/API Context/UseContext';
 // import ArrayListing from './components/ArrayListing';
 // import One from './components/API Context/One';
@@ -94,7 +95,8 @@ function App() {
       {/* <UseContext /> */}
       {/* <One /> */}
       {/* <ArrayListing /> */}
-      <NestedArrayListing />
+      {/* <NestedArrayListing /> */}
+      <ReuseComp />
     </div>
   );
 }
