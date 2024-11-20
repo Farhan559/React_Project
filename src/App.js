@@ -1,6 +1,8 @@
 // import React,{useState} from 'react';
 import { useState } from 'react';
 import './App.css';
+import UseContext from './components/API Context/UseContext';
+// import One from './components/API Context/One';
 // import Calculator from './Calculator';
 // import Home from './components/My routes/Home';
 // import { BrowserRouter, Routes,Route,Link} from 'react-router-dom';
@@ -14,7 +16,8 @@ import './App.css';
 // import Faculty from './components/Nested Routes/Faculty';
 // import Students from './components/Nested Routes/Students';
 // import Protected from './components/My routes/Protected';
-import ContextApiWithHooks from './components/ContextApiWithHooks';
+// import ContextApiWithHooks from './components/ContextApiWithHooks';
+
 // import UseMemo from './components/UseMemo';
 // import PropsUseEffect from './PropsUseEffect';
 // import UseEffectHook from './components/UseEffectHook';
@@ -38,8 +41,8 @@ function App() {
   // // const [firstName,setName] = useState('Qaim')
   // function GetData(){
   //   alert('Pass props as function in React')
-  // }
-  const[count,setCount] = useState(0)
+  // // }
+  // const[count,setCount] = useState(0)
   
   return (
     <div className="App">
@@ -85,7 +88,9 @@ function App() {
         </Route>
       </Routes>
       </BrowserRouter> */}
-      <ContextApiWithHooks />
+      {/* <ContextApiWithHooks /> */}
+      <UseContext />
+      {/* <One /> */}
     </div>
   );
 }
