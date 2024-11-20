@@ -73,12 +73,21 @@ const ArrayListing = () => {
     <>
         <h1>Array Listing............!</h1>
                 {/* <Button variant="primary">Open Table</Button> */}
-        <Table striped hover bordered> 
+        <Table variant='dark' striped hover bordered> 
+            <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>Name</td>
+                    <td>Email Address</td>
+                    <td>Contact Number</td>
+                </tr>
+            </thead>
             <tbody >
                 {
-                    employees.map((emp,index)=>{
+                    employees.map((emp,i)=>{
                         return(
-                        <tr key={index}>
+                        <tr key={i}>
+                            <td >{i+1}</td>
                             <td >{emp.name}</td>
                             <td>{emp.email}</td>
                             <td>{emp.contact}</td>
