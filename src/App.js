@@ -1,7 +1,8 @@
 // import React,{useState} from 'react';
 import { useState } from 'react';
 import './App.css';
-import APICalling from './components/APICalling';
+import PostAPI from './components/PostAPI';
+// import APICalling from './components/APICalling';
 // import UseReducer from './components/UseReducer';
 // import New_Com from './components/New_Com';
 // import Counter from './components/Counter';
@@ -105,7 +106,9 @@ function App() {
         {/* <New_Com /> */}
         {/* <Counter /> */}
         {/* <UseReducer /> */}
-        <APICalling />
+        {/* <APICalling /> */}
+        <PostAPI />
+
     </div>
   );
 }
