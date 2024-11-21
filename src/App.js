@@ -1,8 +1,9 @@
 // import React,{useState} from 'react';
 import { useState } from 'react';
 import './App.css';
+import New_Com from './components/New_Com';
 // import NestedArrayListing from './components/NestedArrayListing';
-import ReuseComp from './components/ReuseComp';
+// import ReuseComp from './components/ReuseComp';
 // import UseContext from './components/API Context/UseContext';
 // import ArrayListing from './components/ArrayListing';
 // import One from './components/API Context/One';
@@ -96,7 +97,9 @@ function App() {
       {/* <One /> */}
       {/* <ArrayListing /> */}
       {/* <NestedArrayListing /> */}
-      <ReuseComp />
+      {/* <ReuseComp /> */}
+        <New_Com />
+
     </div>
   );
 }
