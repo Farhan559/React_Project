@@ -1,8 +1,9 @@
 // import React,{useState} from 'react';
 import { useState } from 'react';
 import './App.css';
+import UseReducer from './components/UseReducer';
 // import New_Com from './components/New_Com';
-import Counter from './components/Counter';
+// import Counter from './components/Counter';
 // import NestedArrayListing from './components/NestedArrayListing';
 // import ReuseComp from './components/ReuseComp';
 // import UseContext from './components/API Context/UseContext';
@@ -100,8 +101,8 @@ function App() {
       {/* <NestedArrayListing /> */}
       {/* <ReuseComp /> */}
         {/* <New_Com /> */}
-        <Counter />
-
+        {/* <Counter /> */}
+        <UseReducer />
     </div>
   );
 }
