@@ -1,7 +1,8 @@
 // import React,{useState} from 'react';
 import { useState } from 'react';
 import './App.css';
-import PostAPI from './components/PostAPI';
+import AxiosGetAPI from './components/Axios/AxiosGetAPI';
+// import PostAPI from './components/PostAPI';
 // import APICalling from './components/APICalling';
 // import UseReducer from './components/UseReducer';
 // import New_Com from './components/New_Com';
@@ -107,7 +108,8 @@ function App() {
         {/* <Counter /> */}
         {/* <UseReducer /> */}
         {/* <APICalling /> */}
-        <PostAPI />
+        {/* <PostAPI /> */}
+        <AxiosGetAPI />
 
     </div>
   );
