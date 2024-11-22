@@ -1,7 +1,8 @@
 // import React,{useState} from 'react';
 import { useState } from 'react';
 import './App.css';
-import AxiosPutAPI from './components/Axios/AxiosPutAPI';
+// import AxiosPutAPI from './components/Axios/AxiosPutAPI';
+import AxiosDeleteAPI from './components/Axios/AxiosDeleteAPI';
 // import AxiosGetAPI from './components/Axios/AxiosGetAPI';
 // import AxiosPostAPI from './components/Axios/AxiosPostAPI';
 // import PostAPI from './components/PostAPI';
@@ -113,7 +114,8 @@ function App() {
         {/* <PostAPI /> */}
         {/* <AxiosGetAPI /> */}
         {/* <AxiosPostAPI /> */}
-        <AxiosPutAPI />
+        {/* <AxiosPutAPI /> */}
+        <AxiosDeleteAPI />
 
     </div>
   );
